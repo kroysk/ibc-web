@@ -1,7 +1,7 @@
 <template>
-    <carousel :items-to-show="1" class="max-h-[500px] relative">
+    <carousel :items-to-show="1" :autoplay="5000" :wrap-around="true" class="max-h-[500px] relative">
         <slide v-for="(image, index) in images " :key="index" class="max-h-[500px]">
-            <img :src="image" alt="" class="w-full object-cover">
+            <img :src="image" alt="" class="h-full">
         </slide>
 
         <template #addons>
@@ -16,9 +16,8 @@
 import 'vue3-carousel/dist/carousel.css'
 import { Carousel, Slide, Pagination } from 'vue3-carousel'
 const images = [
-    "https://picsum.photos/id/221/1024/800",
-    "https://picsum.photos/id/240/1024/800",
-    "https://picsum.photos/id/239/1024/800"
+    "/images/slides/slide1.webp",
+    "/images/slides/slide2.webp",
 ]
 </script>
 

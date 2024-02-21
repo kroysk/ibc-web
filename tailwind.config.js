@@ -43,6 +43,10 @@ export default {
             400: "#818181",
             500: "#5E5E5E",
           },
+          ibc_lila: {
+            100: "#DBD8FF",
+            500: "#695CFF",
+          }
       },
       boxShadow: {
         ibc: "6px 6px 16px 0px rgba(67, 156, 184, 0.15)",
