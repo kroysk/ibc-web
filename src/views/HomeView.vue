@@ -7,6 +7,7 @@ import EventsSection from '../components/Home/EventsSection.vue';
 import AboutSection from '../components/Home/AboutSection.vue';
 import PreachesSection from '../components/Home/PreachesSection.vue';
 import RadioSection from '../components/Home/RadioSection.vue';
+import ContactUs from '@/components/Home/ContactUs.vue';
 
 
 </script>
@@ -20,4 +21,5 @@ import RadioSection from '../components/Home/RadioSection.vue';
    <AboutSection/>
    <PreachesSection/>
    <RadioSection/>
+   <ContactUs/>
 </template>
