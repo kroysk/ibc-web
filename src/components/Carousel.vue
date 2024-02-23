@@ -1,7 +1,12 @@
 <template>
-    <carousel :items-to-show="1" :autoplay="5000" :wrap-around="true" class="max-h-[500px] relative">
-        <slide v-for="(image, index) in images " :key="index" class="max-h-[500px]">
-            <img :src="image" alt="" class="h-full">
+    <carousel :items-to-show="1" :autoplay="0" :wrap-around="true" class="max-h-[500px] relative">
+        <slide v-for="(slide, index) in slides " :key="index" class="h-[500px]">
+            <div class="absolute left-0 top-0 w-full h-full bg-center bg-cover bg-no-repeat z-0"
+                :style="{ 'background-image': `url(${slide.image})` }"></div>
+            <div class="absolute left-0 top-0 w-full h-full" :class="[slide.container_class]" v-if="slide.items">
+                <SlideContent v-for="item in slide.items" :type="item.type" :content="item.content" :classes="item.classes"
+                    :items="item.items" />
+            </div>
         </slide>
 
         <template #addons>
@@ -15,22 +20,98 @@
 <script setup>
 import 'vue3-carousel/dist/carousel.css'
 import { Carousel, Slide, Pagination } from 'vue3-carousel'
-const images = [
-    "/images/slides/slide1.webp",
-    "/images/slides/slide2.webp",
+import SlideContent from '@/components/SlideContent.vue';
+const slides = [
+    // {
+    //     image: "/images/slides/slide1.webp",
+    //     container_class: "flex justify-center items-center h-full",
+    //     items: [
+    //         {
+    //             type: "content",
+    //             content: "",
+    //             items: [
+    //                 {
+    //                     type: "image",
+    //                     content: "/images/slides/slide1-text1.webp",
+    //                     items: [],
+    //                     classes: "lg:max-h-[500px]"
+    //                 },
+    //                 {
+    //                     type: "image",
+    //                     content: "/images/slides/slide1-text2.webp",
+    //                     items: [],
+    //                     classes: "absolute w-96 lg:w-[450px] left-[calc(50%-175px)] top-[calc(50%+150px)]"
+    //                 }
+    //             ],
+    //             classes: "relative"
+    //         }
+    //     ]
+    // },
+    {
+        image: "/images/slides/slide2.webp",
+        container_class: "flex flex-row-reverse flex-wrap justify-center",
+        items: [
+            {
+                type: "content",
+                content: "",
+                items: [
+                    {
+                        type: "image",
+                        content: "/images/slides/slide2-1.webp",
+                        items: [],
+                        classes: ""
+                    }
+                ],
+                classes: "h-60  w-96 overflow-hidden object-cover -m-20"
+            },
+            {
+                type: "content",
+                content: "",
+                items: [
+                    {
+                        type: "image",
+                        content: "/images/slides/slide2-2.webp",
+                        items: [],
+                        classes: ""
+                    },
+                    {
+                        type: "title",
+                        content: "Verás milagros suceder",
+                        items: [],
+                        classes: "absolute top-[calc(75%)] left-[calc(50%-120px)] text-3xl text-white"
+                    }
+                ],
+                classes: "relative"
+            },
+            {
+                type: "content",
+                content: "",
+                items: [
+                    {
+                        type: "image",
+                        content: "/images/slides/slide2-3.webp",
+                        items: [],
+                        classes: ""
+                    }
+                ],
+                classes: "max-w-[500px]"
+            }
+        ]
+    },
 ]
 </script>
 
 <style>
-.carousel__pagination-button::after{
+.carousel__pagination-button::after {
     height: 8px;
     width: 8px;
     border: 1px solid rgba(94, 94, 94, 1);
     border-radius: 50%;
     background-color: transparent;
 }
-.carousel__pagination-button--active::after,  .carousel__pagination-button:hover::after{
+
+.carousel__pagination-button--active::after,
+.carousel__pagination-button:hover::after {
     background-color: rgba(94, 94, 94, 1);
 }
-
 </style>
