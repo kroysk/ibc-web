@@ -49,53 +49,15 @@ const slides = [
     },
     {
         image: "/images/slides/slide2.webp",
-        container_class: "flex flex-row-reverse flex-wrap justify-center",
+        container_class: "flex justify-center items-center",
         items: [
             {
-                type: "content",
-                content: "",
-                items: [
-                    {
-                        type: "image",
-                        content: "/images/slides/slide2-1.webp",
-                        items: [],
-                        classes: ""
-                    }
-                ],
-                classes: "h-60  w-96 overflow-hidden object-cover -m-20"
-            },
-            {
-                type: "content",
-                content: "",
-                items: [
-                    {
-                        type: "image",
-                        content: "/images/slides/slide2-2.webp",
-                        items: [],
-                        classes: ""
-                    },
-                    {
-                        type: "title",
-                        content: "Verás milagros suceder",
-                        items: [],
-                        classes: "absolute top-[calc(75%)] left-[calc(50%-120px)] text-3xl text-white"
-                    }
-                ],
-                classes: "relative"
-            },
-            {
-                type: "content",
-                content: "",
-                items: [
-                    {
-                        type: "image",
-                        content: "/images/slides/slide2-3.webp",
-                        items: [],
-                        classes: ""
-                    }
-                ],
-                classes: "max-w-[500px]"
+                type: "image",
+                content: "/images/slides/slide2-1.webp",
+                items: [],
+                classes: "h-full"
             }
+
         ]
     },
     {

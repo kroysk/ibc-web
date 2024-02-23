@@ -1,7 +1,7 @@
 <template>
     <section class="flex flex-wrap justify-center items-center gap-10 bg-[#133555] py-10 px-2 relative overflow-hidden">
         <img src="/images/radio.webp" alt="" class="h-48 z-10">
-        <div class="flex flex-col gap-4">
+        <div class="flex flex-col gap-4 items-center md:items-start">
             <p class="text-sm text-white z-10">Sintoniza la radio de la familia.</p>
             <h2 class="text-xl text-white font-bold z-10">Conéctate en vivo
                 La Nueva </h2>

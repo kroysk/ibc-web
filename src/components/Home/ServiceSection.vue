@@ -1,7 +1,7 @@
 <template>
     <section class="flex flex-col items-center py-20 gap-10 relative">
         <div class="absolute left-0 top-0 w-full h-full bg-center bg-cover bg-no-repeat z-0" style="background-image: url('/images/services.png');"></div>
-        <h2 class="text-4xl text-ibc_blue-500 z-10">Estos son nuestros <span class="font-bold">servicios</span> en la
+        <h2 class="text-4xl text-ibc_blue-500 z-10 text-center">Estos son nuestros <span class="font-bold">servicios</span> cada
             semana
         </h2>
         <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 z-10">
