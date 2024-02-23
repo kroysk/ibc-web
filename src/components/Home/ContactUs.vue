@@ -2,7 +2,7 @@
     <section class="flex flex-wrap justify-center gap-20 pt-12">
         <article class="flex flex-col items-center justify-end">
             <h2 class="text-4xl text-ibc_blue-500 font-bold">¡Te contactaremos!</h2>
-            <img class="h-80" src="/images/contactus.png" alt="">
+            <img loading="lazy" class="h-80" src="/images/contactus.png" alt="">
         </article>
         <article class="flex flex-col justify-start items-center shadow-ibc p-4 mb-6 rounded-xl">
             <form action="" class="flex flex-col justify-start">

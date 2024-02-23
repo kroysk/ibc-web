@@ -1,7 +1,7 @@
 <template>
     <footer class="flex flex-wrap justify-center bg-ibc_blue-500 text-white pt-8 pb-12 gap-x-2 gap-y-8">
         <div class="min-w-60">
-            <img src="/images/logo-text.png" alt="" class="h-14">
+            <img loading="lazy" src="/images/logo-text.png" alt="" class="h-14">
         </div>
         <div class="min-w-60">
             <h3 class="font-bold">Contáctanos</h3>

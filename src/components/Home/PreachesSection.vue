@@ -3,7 +3,7 @@
         <article>
            <div class="w-96 h-52 shadow-ibc border border-ibc_kobalt-300 rounded-xl overflow-hidden object-center">
                <!-- <video src="https://youtu.be/7DJhvPa4hsQ" class="h-full w-full"></video> -->
-               <iframe class="h-full w-full" src="https://www.youtube.com/embed/7DJhvPa4hsQ" title="PROCLAMACIÓN PROFÉTICA 2024 &quot;UNA IGLESIA GLORIOSA&quot;" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+               <iframe loading="lazy" class="h-full w-full" src="https://www.youtube.com/embed/7DJhvPa4hsQ" title="PROCLAMACIÓN PROFÉTICA 2024 &quot;UNA IGLESIA GLORIOSA&quot;" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
            </div>
         </article>
         <article class="flex flex-col gap-4 items-center md:items-start">

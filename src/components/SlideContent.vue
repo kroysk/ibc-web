@@ -1,5 +1,5 @@
 <template>
-        <img v-if="type === 'image'" :src="content" alt="" :class="[classes]">
+        <img loading="lazy" v-if="type === 'image'" :src="content" alt="" :class="[classes]">
         <h2 v-else-if="type === 'title'" :class="[classes]">{{ content }}</h2>
         <p v-else-if="type === 'text'" :class="[classes]">{{ content }}</p>
         <div v-else-if="exist_items" :class="[classes]">

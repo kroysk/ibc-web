@@ -12,7 +12,7 @@
                     Santo y el crecimiento integral de cada vida y familia que llega a esta casa.</p>
             </div>
         </div>
-        <div class="relative w-64 min-w-64"><img src="/images/pastores.webp" alt=""></div>
+        <div class="relative w-64 min-w-64"><img loading="lazy" src="/images/pastores.webp" alt=""></div>
     </section>
 </template>
 

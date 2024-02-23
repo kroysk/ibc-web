@@ -1,7 +1,7 @@
 <template>
     <header class="bg-w-full h-16 shadow-ibc px-14 flex justify-between items-center z-10">
         <div>
-            <img class="h-8" src="/logo.png" alt="">
+            <img loading="lazy" class="h-8" src="/logo.png" alt="">
         </div>
         <nav>
             <ul class="flex flex-end gap-3 text-ibc_blue-500">

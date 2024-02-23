@@ -5,7 +5,8 @@
         <h3 class="text-3xl text-white z-10">Visítanos</h3>
         <div class="w-10 border-b-2 border-white z-10"></div>
         <h2 class="text-4xl text-ibc_yellow-500 font-bold z-10">Vive la experiencia Boston Central</h2>
-        <p class="text-2xl text-white z-10"><font-awesome-icon icon="fa-solid fa-location-dot" class="mr-3"/>Calle 73 #40-47 -
+        <p class="text-2xl text-white z-10"><font-awesome-icon icon="fa-solid fa-location-dot" class="mr-3"/>
+            Calle 73 #40-47 -
             Barranquilla, Colombia</p>
     </section>
 </template>

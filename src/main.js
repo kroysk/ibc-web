@@ -7,17 +7,19 @@ import { createPinia } from 'pinia'
 import { library } from '@fortawesome/fontawesome-svg-core'
 
 /* import font awesome icon component */
-import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'  
-import { fas } from '@fortawesome/free-solid-svg-icons'
-import { fab } from '@fortawesome/free-brands-svg-icons'
+import { faLocationDot } from '@fortawesome/free-solid-svg-icons'
+import { faInstagram,  faFacebookF, faYoutube, faXTwitter, faWhatsapp} from '@fortawesome/free-brands-svg-icons'
 
 import App from './App.vue'
 import router from './router'
 
-library.add(fas)
-library.add(fab)
+library.add(faLocationDot)
+library.add(faInstagram)
+library.add(faFacebookF)
+library.add(faYoutube)
+library.add(faXTwitter)
+library.add(faWhatsapp)
 const app = createApp(App)
-app.component('fa', FontAwesomeIcon)
 app.use(createPinia())
 app.use(router)
 
