@@ -1,6 +1,6 @@
 <template>
     <section class="py-20 bg-ibc_kobalt-100 flex flex-col justify-center items-center text-center gap-5 relative">
-        <div class="absolute left-0 top-0 w-full h-full bg-center bg-cover bg-no-repeat z-0" style="background-image: url('/images/visitus.webp');"></div>
+        <div class="absolute left-0 top-0 w-full h-full bg-center sm:bg-visit-sm md:bg-visit bg-cover bg-no-repeat z-0" style="background-image: url('/images/visitus.webp');"></div>
         
         <h3 class="text-3xl text-white z-10">Visítanos</h3>
         <div class="w-10 border-b-2 border-white z-10"></div>

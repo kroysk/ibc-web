@@ -51,6 +51,10 @@ export default {
       boxShadow: {
         ibc: "6px 6px 16px 0px rgba(67, 156, 184, 0.15)",
         non: "none"
+      },
+      backgroundPosition: {
+        'visit': 'center top -100px',
+        'visit-sm': 'center top -70px'
       }
     },
   },

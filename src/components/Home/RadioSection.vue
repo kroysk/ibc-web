@@ -7,10 +7,10 @@
                 La Nueva </h2>
             <button class="bg-ibc_red-500 rounded-full text-white text-sm h-12 w-48 z-10">Sintoniza ahora</button>
         </div>
-        <div class="absolute h-[685px] w-[685px] bg-[#FF002B] rounded-full left-[-581px] top-[-150px]">
+        <div class="absolute h-[308px] md:h-[685px] w-[308px] md:w-[685px] bg-[#FF002B] left-[-250px] bottom-[-150px] rounded-full md:left-[-581px] md:top-[-150px]">
 
         </div>
-        <div class="absolute h-[685px] w-[685px] bg-[#FF002B] rounded-full right-[-350px] top-[-600px]">
+        <div class="absolute h-[308px] md:h-[685px] w-[308px] md:w-[685px] bg-[#FF002B] rounded-full right-[-220px] md:right-[-350px] top-[-200px] md:top-[-600px]">
 
         </div>
     </section>
