@@ -23,7 +23,9 @@
             </div>
         </div>
     </footer>
+    <Whatsapp/>
 </template>
 <script setup>
+import Whatsapp from '@/components/Whatsapp.vue';
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 </script>
